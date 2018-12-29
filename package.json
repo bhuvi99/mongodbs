@@ -1,0 +1,31 @@
+{
+  "name": "open_mongo_dbs",
+  "version": "1.0.0",
+  "description": "will find mongo db ips without authentication",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --expose-gc index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvi99/mongodbs.git"
+  },
+  "keywords": [
+    "opendbs"
+  ],
+  "author": "Bhuvanachandu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuvi99/mongodbs/issues"
+  },
+  "homepage": "https://github.com/bhuvi99/mongodbs#readme",
+  "dependencies": {
+    "async": "^2.6.1",
+    "cluster": "^0.7.7",
+    "config": "^3.0.1",
+    "debug": "^4.1.1",
+    "events": "^3.0.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.1"
+  }
+}

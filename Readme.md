@@ -1,0 +1,1 @@
+pm2 --no-autorestart start index.js --name opendb5 --node-args="-expose-gc" -- 1  --no-autorestart

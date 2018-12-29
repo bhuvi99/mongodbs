@@ -1,0 +1,11 @@
+{
+    "host": "0.0.0.0",
+    "port": 3001,
+    "mongodb": {
+      "uri": "mongodb://way2dsp:dsprtb2k18@172.16.21.187:27017/way2dsp",
+      "db": "way2dsp"
+    },
+    "baseUrl": "http://localhost:3001",
+    "jwtsecret": "way2dsp!@#$",
+    "currencylayer": "def8235ed905feb1211cbb7f52587246"
+  }
